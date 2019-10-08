@@ -1,0 +1,49 @@
+# sphinx build directories
+_build/
+
+# dotfiles
+.*
+!.gitignore
+!.mailmap
+# compiled python files
+*.py[co]
+__pycache__/
+# setup.py egg_info
+*.egg-info
+# emacs backup files
+*~
+# hg stuff
+*.orig
+status
+#processes and others
+*.pid
+*.log
+# odoo filestore
+openerp/filestore
+
+# pycharm directory
+.idea/*
+
+# maintenance migration scripts
+openerp/addons/base/maintenance
+
+
+# generated for windows installer?
+install/win32/*.bat
+install/win32/meta.py
+
+
+# various virtualenv
+/bin/
+/build/
+/dist/
+/include/
+/lib/
+/man/
+/share/
+/src/
+
+custom.conf
+custom*.conf
+addons/mrp_product_variants/
+addons/jasper_reports/java/jasperserver.log.[0-9]*
